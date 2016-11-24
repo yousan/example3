@@ -14,7 +14,7 @@
       "php vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs/"
     ],
     "test": [
-      "php vendor/bin/phpcs -p -s -v -n . --standard=./codesniffer.ruleset.xml --extensions=php --exclude=vendor",
+      "php vendor/bin/phpcs -p -s -v -n . --standard=./codesniffer.ruleset.xml --extensions=php --ignore=vendor/ --colors",
       "phpmd template-parts,inc,404.php,archive.php,comments.php,footer.php,functions.php,header.php,index.php,page.php,search.php,sidebar.php,single.php text phpmd.ruleset.xml"
     ]
   }
