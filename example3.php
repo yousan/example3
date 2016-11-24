@@ -1,7 +1,14 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: yousan
- * Date: 2016/11/24
- * Time: 22:36
+ * @package hoge
  */
+
+function hogehoge() {
+	echo 'hoge';
+	$i_am = 'hungry';
+	if ('hungry' === $i_am) {
+		echo 'give u some chocolates.';
+	} else {
+		echo 'u must be a pig.';
+	}
+}
