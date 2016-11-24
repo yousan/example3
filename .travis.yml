@@ -12,9 +12,9 @@ cache:
    - vendor
 
 before_script:
+  - composer install
   - nvm install 6
-  - npm run setup
 
 script:
-  - npm test
+  - composer test 
     
