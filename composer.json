@@ -15,7 +15,7 @@
     ],
     "test": [
       "php vendor/bin/phpcs -p -s -v -n . --standard=./codesniffer.ruleset.xml --extensions=php --ignore=vendor/ --colors",
-      "phpmd example3.php phpmd.ruleset.xml"
+      "phpmd example3.php text phpmd.ruleset.xml"
     ]
   }
 }
