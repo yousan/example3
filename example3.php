@@ -1,15 +1,15 @@
 <?php
 /**
- * Hello
+ * Hello the World.
  *
- * @package hoge
+ * @package hello world
  */
 
 /**
- * Yo man
+ * This World is HELL.
  */
 function hogehoge() {
-	echo 'hoge';
+	echo('hoge');
 	$i_am = 'hungry';
 	if ( 'hungry' === $i_am ) {
 		echo 'give u some chocolates.';
